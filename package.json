@@ -1,0 +1,60 @@
+{
+  "name": "ngx-summernote-app",
+  "version": "0.0.0",
+  "keywords": [
+    "summernote",
+    "angular"
+  ],
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build_lib": "ng build ngx-summernote && cp README.md LICENSE dist/ngx-summernote",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@angular/animations": "^8.2.4",
+    "@angular/cdk": "^8.2.3",
+    "@angular/common": "^8.2.4",
+    "@angular/compiler": "^8.2.4",
+    "@angular/core": "^8.2.4",
+    "@angular/forms": "^8.2.4",
+    "@angular/platform-browser": "^8.2.4",
+    "@angular/platform-browser-dynamic": "^8.2.4",
+    "@angular/router": "^8.2.4",
+    "angular-material": "^1.1.20",
+    "core-js": "^3.2.1",
+    "jquery": "^3.4.1",
+    "ngx-summernote": "^0.7.0",
+    "rxjs": "^6.5.3",
+    "summernote": "^0.8.12",
+    "zone.js": "^0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.803.2",
+    "@angular-devkit/build-ng-packagr": "~0.803.2",
+    "@angular/cli": "~8.3.2",
+    "@angular/compiler-cli": "^8.2.4",
+    "@angular/language-service": "^8.2.4",
+    "@types/jasmine": "~3.4.0",
+    "@types/jasminewd2": "~2.0.6",
+    "@types/node": "~12.7.4",
+    "codelyzer": "~5.1.0",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^5.5.0",
+    "protractor": "~5.4.2",
+    "ts-node": "~8.3.0",
+    "tsickle": "^0.37.0",
+    "tslib": "^1.10.0",
+    "tslint": "~5.19.0",
+    "typescript": "~3.5.0"
+  }
+}
