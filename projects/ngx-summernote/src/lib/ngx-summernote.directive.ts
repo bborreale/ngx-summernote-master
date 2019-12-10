@@ -65,7 +65,7 @@ export class NgxSummernoteDirective implements ControlValueAccessor, OnInit, OnD
             ['para', ['style0', 'ul', 'ol', 'paragraph', 'height']],
             ['insert', ['table', 'picture', 'link', 'video', 'hr']],
         ],
-        fontNames: ['Helvetica', 'Arial', 'Arial Black', 'Comic Sans MS', 'Courier New', 'Roboto', 'Times'],
+        fontNames: ['Helvetica', 'Arial', 'Arial Black', 'Comic Sans MS', 'Courier New', 'Textile', 'Times'],
         callbacks: {
             onImageUpload: (files) => this.uploadImage(files)
         },
